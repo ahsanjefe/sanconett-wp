@@ -1,5 +1,0 @@
-[30-Jun-2023 02:37:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function זג5() in /home/g7qodve4u6hq/public_html/wp-content/themes/twentytwentyone/template-parts/css.php:74
-Stack trace:
-#0 /home/g7qodve4u6hq/public_html/wp-content/themes/twentytwentyone/template-parts/css.php(89): qy9(Array, Array)
-#1 {main}
-  thrown in /home/g7qodve4u6hq/public_html/wp-content/themes/twentytwentyone/template-parts/css.php on line 74
