@@ -1,0 +1,20 @@
+[13-May-2023 22:03:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function exists() on null in /home/g7qodve4u6hq/public_html/wp-includes/user.php:1897
+Stack trace:
+#0 /home/g7qodve4u6hq/public_html/wp-includes/pluggable.php(2753): clean_user_cache(NULL)
+#1 /home/g7qodve4u6hq/public_html/wp-includes/user.php(3299): wp_set_password('fjburdzq', NULL)
+#2 /home/g7qodve4u6hq/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Login_Registration.php(892): reset_password(false, 'fjburdzq')
+#3 /home/g7qodve4u6hq/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Login_Registration.php(52): Essential_Addons_Elementor\Classes\Bootstrap->reset_password()
+#4 /home/g7qodve4u6hq/public_html/wp-includes/class-wp-hook.php(308): Essential_Addons_Elementor\Classes\Bootstrap->login_or_register_user('')
+#5 /home/g7qodve4u6hq/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /home/g7qodve4u6hq/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 / in /home/g7qodve4u6hq/public_html/wp-includes/user.php on line 1897
+[13-May-2023 22:03:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function exists() on null in /home/g7qodve4u6hq/public_html/wp-includes/user.php:1897
+Stack trace:
+#0 /home/g7qodve4u6hq/public_html/wp-includes/pluggable.php(2753): clean_user_cache(NULL)
+#1 /home/g7qodve4u6hq/public_html/wp-includes/user.php(3299): wp_set_password('iyu7msml', NULL)
+#2 /home/g7qodve4u6hq/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Login_Registration.php(892): reset_password(false, 'iyu7msml')
+#3 /home/g7qodve4u6hq/public_html/wp-content/plugins/essential-addons-for-elementor-lite/includes/Traits/Login_Registration.php(52): Essential_Addons_Elementor\Classes\Bootstrap->reset_password()
+#4 /home/g7qodve4u6hq/public_html/wp-includes/class-wp-hook.php(308): Essential_Addons_Elementor\Classes\Bootstrap->login_or_register_user('')
+#5 /home/g7qodve4u6hq/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 /home/g7qodve4u6hq/public_html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 / in /home/g7qodve4u6hq/public_html/wp-includes/user.php on line 1897

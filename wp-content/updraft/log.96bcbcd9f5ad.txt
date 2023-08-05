@@ -1,0 +1,357 @@
+0000.000 (0) Opened log file at time: Fri, 21 Apr 2023 01:43:56 +0000 on http://sanconett.com
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.23.3 WP: 6.2 PHP: 8.0.27 (fpm-fcgi, Linux host.sanconett.com 5.14.0-162.18.1.el9_1.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Feb 28 03:54:43 EST 2023 x86_64) MySQL: 8.0.30 (max packet size=67108864) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 13.8M | 16M) multisite: N openssl: OpenSSL 3.0.1 14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 55775.2 MB
+0000.010 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.014 (0) Semaphore (fd, wp_options) being initialised
+0000.021 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.027 (0) Set semaphore last lock (fd) time to 2023-04-21 01:43:56
+0000.030 (0) Semaphore lock (fd) complete
+0000.038 (0) Backup run: resumption=0, nonce=96bcbcd9f5ad, file_nonce=96bcbcd9f5ad begun at=1682041436 (0s ago), job type=backup
+0000.044 (0) Scheduling a resumption (1) after 300 seconds (1682041736) in case this run gets aborted
+0000.073 (0) Checking if we have a zip executable available
+0000.076 (0) Testing: /usr/bin/zip
+0000.081 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.084 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.087 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.089 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.091 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.099 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.101 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.104 (0) Working binary zip found: /usr/bin/zip
+0000.109 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.111 (0) Creation of backups of directories: beginning
+0000.117 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.312 (0) Total entities for the zip file: 1714 directories, 7940 files (0 skipped as non-modified), 166.1 MB
+0000.318 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.320 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.323 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.326 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.330 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.332 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 7940 files batched, 541 (541) added so far); re-opening (prior size: 0 KB)
+0001.680 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: size is now: 7.40 MB
+0001.686 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13609.2 KB/s)
+0001.691 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.8896241188049, normalised_time=1.881086238752, max_time=1.6886389255524, data points known=1, old_max_bytes=26214400, new_max_bytes=83614667)
+0001.697 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 600 files added (on-disk size: 7587.7 KB)
+0001.700 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 700 files added (on-disk size: 7587.7 KB)
+0001.703 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 800 files added (on-disk size: 7587.7 KB)
+0001.711 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 900 files added (on-disk size: 7587.7 KB)
+0001.719 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1000 files added (on-disk size: 7587.7 KB)
+0001.723 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1100 files added (on-disk size: 7587.7 KB)
+0001.728 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1200 files added (on-disk size: 7587.7 KB)
+0001.732 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1300 files added (on-disk size: 7587.7 KB)
+0001.735 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1400 files added (on-disk size: 7587.7 KB)
+0001.740 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1500 files added (on-disk size: 7587.7 KB)
+0001.742 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.7 MB, 7940 files batched, 1001 (1542) added so far); re-opening (prior size: 7587.7 KB)
+0002.505 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: size is now: 12.40 MB
+0002.514 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1600 files added (on-disk size: 12702.3 KB)
+0002.518 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1700 files added (on-disk size: 12702.3 KB)
+0002.522 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1800 files added (on-disk size: 12702.3 KB)
+0002.525 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 1900 files added (on-disk size: 12702.3 KB)
+0002.529 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2000 files added (on-disk size: 12702.3 KB)
+0002.532 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2100 files added (on-disk size: 12702.3 KB)
+0002.535 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2200 files added (on-disk size: 12702.3 KB)
+0002.539 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2300 files added (on-disk size: 12702.3 KB)
+0002.543 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2400 files added (on-disk size: 12702.3 KB)
+0002.546 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2500 files added (on-disk size: 12702.3 KB)
+0002.548 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.1 MB, 7940 files batched, 1001 (2543) added so far); re-opening (prior size: 12702.3 KB)
+0003.710 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: size is now: 20.00 MB
+0003.720 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2600 files added (on-disk size: 20431.3 KB)
+0003.724 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2700 files added (on-disk size: 20431.3 KB)
+0003.728 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2800 files added (on-disk size: 20431.3 KB)
+0003.732 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 2900 files added (on-disk size: 20431.3 KB)
+0003.741 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3000 files added (on-disk size: 20431.3 KB)
+0003.749 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3100 files added (on-disk size: 20431.3 KB)
+0003.753 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3200 files added (on-disk size: 20431.3 KB)
+0003.758 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3300 files added (on-disk size: 20431.3 KB)
+0003.762 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3400 files added (on-disk size: 20431.3 KB)
+0003.766 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3500 files added (on-disk size: 20431.3 KB)
+0003.772 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.4 MB, 7940 files batched, 1001 (3544) added so far); re-opening (prior size: 20431.3 KB)
+0005.081 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: size is now: 27.20 MB
+0005.092 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3600 files added (on-disk size: 27832 KB)
+0005.097 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3700 files added (on-disk size: 27832 KB)
+0005.100 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3800 files added (on-disk size: 27832 KB)
+0005.104 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 3900 files added (on-disk size: 27832 KB)
+0005.108 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4000 files added (on-disk size: 27832 KB)
+0005.112 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4100 files added (on-disk size: 27832 KB)
+0005.117 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4200 files added (on-disk size: 27832 KB)
+0005.121 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4300 files added (on-disk size: 27832 KB)
+0005.126 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4400 files added (on-disk size: 27832 KB)
+0005.129 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4500 files added (on-disk size: 27832 KB)
+0005.132 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.9 MB, 7940 files batched, 1001 (4545) added so far); re-opening (prior size: 27832 KB)
+0006.020 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4600 files added (on-disk size: 32536.9 KB)
+0006.025 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4700 files added (on-disk size: 32536.9 KB)
+0006.036 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4800 files added (on-disk size: 32536.9 KB)
+0006.040 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 4900 files added (on-disk size: 32536.9 KB)
+0006.044 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5000 files added (on-disk size: 32536.9 KB)
+0006.048 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5100 files added (on-disk size: 32536.9 KB)
+0006.052 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5200 files added (on-disk size: 32536.9 KB)
+0006.055 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5300 files added (on-disk size: 32536.9 KB)
+0006.059 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5400 files added (on-disk size: 32536.9 KB)
+0006.063 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5500 files added (on-disk size: 32536.9 KB)
+0006.067 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (26.4 MB, 7940 files batched, 1001 (5546) added so far); re-opening (prior size: 32536.9 KB)
+0007.527 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: size is now: 42.10 MB
+0007.533 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5600 files added (on-disk size: 43122.8 KB)
+0007.537 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5700 files added (on-disk size: 43122.8 KB)
+0007.542 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5800 files added (on-disk size: 43122.8 KB)
+0007.546 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 5900 files added (on-disk size: 43122.8 KB)
+0007.549 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6000 files added (on-disk size: 43122.8 KB)
+0007.553 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6100 files added (on-disk size: 43122.8 KB)
+0007.556 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6200 files added (on-disk size: 43122.8 KB)
+0007.560 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6300 files added (on-disk size: 43122.8 KB)
+0007.564 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6400 files added (on-disk size: 43122.8 KB)
+0007.568 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6500 files added (on-disk size: 43122.8 KB)
+0007.571 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.5 MB, 7940 files batched, 1001 (6547) added so far); re-opening (prior size: 43122.8 KB)
+0008.454 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6600 files added (on-disk size: 47170.2 KB)
+0008.458 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6700 files added (on-disk size: 47170.2 KB)
+0008.463 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6800 files added (on-disk size: 47170.2 KB)
+0008.467 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 6900 files added (on-disk size: 47170.2 KB)
+0008.471 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7000 files added (on-disk size: 47170.2 KB)
+0008.475 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7100 files added (on-disk size: 47170.2 KB)
+0008.479 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7200 files added (on-disk size: 47170.2 KB)
+0008.484 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7300 files added (on-disk size: 47170.2 KB)
+0008.490 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7400 files added (on-disk size: 47170.2 KB)
+0008.495 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7500 files added (on-disk size: 47170.2 KB)
+0008.501 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.9 MB, 7940 files batched, 1001 (7548) added so far); re-opening (prior size: 47170.2 KB)
+0009.960 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7600 files added (on-disk size: 53635.6 KB)
+0009.966 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7700 files added (on-disk size: 53635.6 KB)
+0009.969 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7800 files added (on-disk size: 53635.6 KB)
+0009.973 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.tmp: 7900 files added (on-disk size: 53635.6 KB)
+0010.466 (0) Creating zip file manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.list-temp.tmp)
+0010.481 (0) Successfully created zip file manifest (size: 677513)
+0011.071 (0) Created plugins zip (0) - 54802.5 KB in 10.9 s (5005.9 KB/s) (sha1: ed1d417d3037a7693f2b91ebde85bd157886b11c, sha256: d131756febb27e41629a9ae3255f0555092dbef78bed6d527a2b03c1c212f9a3)
+0011.084 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.086 (0) No remote despatch: user chose no remote backup service
+0011.089 (0) Recording as successfully uploaded: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip
+0011.094 (0) Deleting zip manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip.list.tmp)
+0011.103 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.105 (0) Number of backup sets in history: 0; groups (db): 1
+0011.108 (0) Number of backup sets in history: 0; groups (files): 1
+0011.110 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0011.121 (0) Beginning creation of dump of themes (split every: 400 MB)
+0011.161 (0) Total entities for the zip file: 387 directories, 1111 files (0 skipped as non-modified), 38 MB
+0011.166 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0011.170 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0011.173 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0011.176 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0011.179 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0011.182 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0011.186 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0011.190 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0011.193 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0011.197 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0011.199 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (34.8 MB, 1111 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0013.288 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: size is now: 17.10 MB
+0013.314 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.tmp: 1100 files added (on-disk size: 17463.5 KB)
+0013.718 (0) Creating zip file manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.list-temp.tmp)
+0013.728 (0) Successfully created zip file manifest (size: 91266)
+0014.080 (0) Created themes zip (0) - 18564.9 KB in 3 s (6288.1 KB/s) (sha1: 1b9be47e6a60a9ef85b217c2f2f2070c40a0d8d4, sha256: ccc7f60bea758bf21982dbdb4ff5fb63665a090b3345ab3719b5a97ff75163b0)
+0014.096 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.101 (0) No remote despatch: user chose no remote backup service
+0014.104 (0) Recording as successfully uploaded: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip
+0014.113 (0) Deleting zip manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip.list.tmp)
+0014.121 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.124 (0) Number of backup sets in history: 0; groups (db): 1
+0014.127 (0) Number of backup sets in history: 0; groups (files): 1
+0014.132 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0014.151 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0014.154 (0) Looking for candidates to backup in: /home/sanconett/public_html/wp-content/uploads
+0014.159 (0) finding files: 2023: adding to list (1)
+0014.163 (0) finding files: elementor: adding to list (2)
+0014.170 (0) finding files: essential-addons-elementor: adding to list (3)
+0014.172 (0) finding files: unlimited_elements_cache: adding to list (4)
+0014.175 (0) finding files: ac_assets: adding to list (5)
+0014.179 (0) finding files: wpforms: adding to list (6)
+0014.183 (0) finding files: pum: adding to list (7)
+0014.186 (0) finding files: pum-debug-1600693883642e25eebb3f22.64541277.log: adding to list (8)
+0014.189 (0) finding files: premium-addons-elementor: adding to list (9)
+0014.192 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0014.204 (0) Total entities for the zip file: 12 directories, 213 files (0 skipped as non-modified), 32.3 MB
+0014.213 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.222 (0) Zip: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0014.607 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-uploads.zip.tmp: size is now: 31.20 MB
+0014.619 (0) Creating zip file manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-uploads.zip.list-temp.tmp)
+0014.625 (0) Successfully created zip file manifest (size: 12815)
+0015.004 (0) Created uploads zip (0) - 31919.8 KB in 0.8 s (39697.4 KB/s) (sha1: 18186d522e53b1731dcdf4b7120280780c064005, sha256: 8eefa122a991921ac7ef5926af44e31cf04371510434ef310ea32f2820ff4b45)
+0015.016 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.024 (0) No remote despatch: user chose no remote backup service
+0015.031 (0) Recording as successfully uploaded: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-uploads.zip
+0015.038 (0) Deleting zip manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-uploads.zip.list.tmp)
+0015.044 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0015.048 (0) Number of backup sets in history: 0; groups (db): 1
+0015.050 (0) Number of backup sets in history: 0; groups (files): 1
+0015.053 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0015.068 (0) Beginning backup of other directories found in the content directory (index: 0)
+0015.071 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0015.074 (0) Looking for candidates to backup in: /home/sanconett/public_html/wp-content
+0015.076 (0) finding files: index.php: adding to list (1)
+0015.079 (0) finding files: plugins: skipping: this is the plugins directory
+0015.082 (0) finding files: themes: skipping: this is the themes directory
+0015.084 (0) finding files: uploads: skipping: this is the uploads directory
+0015.086 (0) finding files: upgrade: skipping: excluded by options
+0015.088 (0) finding files: updraft: skipping: this is the updraft directory
+0015.096 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0015.106 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-others.zip.tmp: size is now: 0.00 MB
+0015.113 (0) Creating zip file manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-others.zip.list-temp.tmp)
+0015.116 (0) Successfully created zip file manifest (size: 43)
+0015.131 (0) Created others zip (0) - 0.2 KB in 0 s (5.4 KB/s) (sha1: a72fb035ed53d282e468e532d63dc69f2f5754af, sha256: 889d90f3882d4c1f84a9b10857feffab9253e2e2c37972d7cbd75bccf93b443b)
+0015.142 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.145 (0) No remote despatch: user chose no remote backup service
+0015.149 (0) Recording as successfully uploaded: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-others.zip
+0015.155 (0) Deleting zip manifest (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-others.zip.list.tmp)
+0015.162 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0015.167 (0) Number of backup sets in history: 0; groups (db): 1
+0015.170 (0) Number of backup sets in history: 0; groups (files): 1
+0015.173 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0015.199 (0) Saving backup status to database (elements: 8)
+0015.206 (0) Beginning creation of database dump (WordPress DB)
+0015.209 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0015.216 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0015.274 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1536 bytes total)
+0015.278 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0015.326 (0) Table wp_options: Total expected rows (via COUNT): 386
+0015.329 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.506 (0) Table wp_options: Rows added in this batch (next record: 8592): 382 (uncompressed bytes in this segment=3358527) in 0.20 seconds
+0015.524 (0) Table wp_options: finishing file(s) (2, 578.3 KB)
+0015.539 (0) Table wp_users: Total expected rows (via COUNT): 1
+0015.542 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.549 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1371) in 0.01 seconds
+0015.562 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0015.580 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0015.583 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.590 (0) Table wp_usermeta: Rows added in this batch (next record: 29): 28 (uncompressed bytes in this segment=3885) in 0.02 seconds
+0015.608 (0) Table wp_usermeta: finishing file(s) (2, 1.6 KB)
+0015.629 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 40
+0015.634 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.641 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 168): 40 (uncompressed bytes in this segment=18609) in 0.02 seconds
+0015.656 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2 KB)
+0015.669 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0015.676 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.01 seconds
+0015.686 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0015.698 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0015.701 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.710 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=702) in 0.01 seconds
+0015.720 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0015.733 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 110
+0015.735 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.745 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 110): 110 (uncompressed bytes in this segment=10127) in 0.01 seconds
+0015.758 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.5 KB)
+0015.775 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0015.783 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0015.802 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0015.815 (0) Table wp_comments: Total expected rows (via COUNT): 2
+0015.817 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.826 (0) Table wp_comments: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=2474) in 0.01 seconds
+0015.837 (0) Table wp_comments: finishing file(s) (2, 0.9 KB)
+0015.853 (0) Table wp_links: Total expected rows (via COUNT): 0
+0015.861 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.01 seconds
+0015.873 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0015.911 (0) Table wp_postmeta: Total expected rows (approximate): 4886
+0016.365 (0) Table wp_postmeta: Rows added in this batch (next record: 5151): 4687 (uncompressed bytes in this segment=21429204) in 0.48 seconds
+0016.381 (0) Table wp_postmeta: finishing file(s) (2, 2035.2 KB)
+0016.402 (0) Table wp_posts: Total expected rows (via COUNT): 719
+0016.499 (0) Table wp_posts: Rows added in this batch (next record: 762): 719 (uncompressed bytes in this segment=3390609) in 0.11 seconds
+0016.517 (0) Table wp_posts: finishing file(s) (2, 684 KB)
+0016.530 (0) Table wp_term_relationships: Total expected rows (approximate): 28
+0016.537 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 29 (uncompressed bytes in this segment=1080) in 0.01 seconds
+0016.550 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0016.568 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 7
+0016.571 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.578 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1127) in 0.02 seconds
+0016.592 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0016.610 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0016.621 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.02 seconds
+0016.635 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0016.646 (0) Table wp_terms: Total expected rows (via COUNT): 7
+0016.649 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.656 (0) Table wp_terms: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=988) in 0.01 seconds
+0016.666 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0016.679 (0) Table wp_addonlibrary_addons: Total expected rows (via COUNT): 0
+0016.685 (0) Table wp_addonlibrary_addons: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1138) in 0.01 seconds
+0016.697 (0) Table wp_addonlibrary_addons: finishing file(s) (2, 0.4 KB)
+0016.710 (0) Table wp_addonlibrary_categories: Total expected rows (via COUNT): 0
+0016.714 (0) Table wp_addonlibrary_categories: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=774) in 0.01 seconds
+0016.724 (0) Table wp_addonlibrary_categories: finishing file(s) (2, 0.4 KB)
+0016.742 (0) Table wp_e_events: Total expected rows (via COUNT): 10
+0016.745 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.751 (0) Table wp_e_events: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2530) in 0.01 seconds
+0016.760 (0) Table wp_e_events: finishing file(s) (2, 0.7 KB)
+0016.773 (0) Table wp_wpdm_social_shares: Total expected rows (via COUNT): 0
+0016.779 (0) Table wp_wpdm_social_shares: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=714) in 0.01 seconds
+0016.788 (0) Table wp_wpdm_social_shares: finishing file(s) (2, 0.4 KB)
+0016.802 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0016.804 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0016.811 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 11): 4 (uncompressed bytes in this segment=971) in 0.01 seconds
+0016.822 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0016.827 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/sanconett/public_html/wp-content/updraft/backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db.gz (line 1924, wp-content/plugins/updraftplus/backup.php)
+0016.830 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_options.table.tmpr8593.gz (1/21/fopen): adding to final database dump
+0016.836 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_options.table.gz (2/21/fopen): adding to final database dump
+0016.838 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_users.table.tmpr2.gz (3/21/fopen): adding to final database dump
+0016.841 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_users.table.gz (4/21/fopen): adding to final database dump
+0016.843 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_usermeta.table.tmpr30.gz (5/21/fopen): adding to final database dump
+0016.845 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_usermeta.table.gz (6/21/fopen): adding to final database dump
+0016.848 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_actions.table.tmpr169.gz (7/21/fopen): adding to final database dump
+0016.851 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_actions.table.gz (8/21/fopen): adding to final database dump
+0016.853 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/21/fopen): adding to final database dump
+0016.856 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_claims.table.gz (10/21/fopen): adding to final database dump
+0016.858 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/21/fopen): adding to final database dump
+0016.861 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_groups.table.gz (12/21/fopen): adding to final database dump
+0016.863 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_logs.table.tmpr111.gz (13/21/fopen): adding to final database dump
+0016.866 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_actionscheduler_logs.table.gz (14/21/fopen): adding to final database dump
+0016.868 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_commentmeta.table.tmpr0.gz (15/21/fopen): adding to final database dump
+0016.870 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_commentmeta.table.gz (16/21/fopen): adding to final database dump
+0016.873 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_comments.table.tmpr3.gz (17/21/fopen): adding to final database dump
+0016.876 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_comments.table.gz (18/21/fopen): adding to final database dump
+0016.879 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_links.table.tmpr0.gz (19/21/fopen): adding to final database dump
+0016.881 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_links.table.gz (20/21/fopen): adding to final database dump
+0016.884 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_postmeta.table.tmpr5152.gz (21/21/fopen): adding to final database dump
+0016.898 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_postmeta.table.gz (22/21/fopen): adding to final database dump
+0016.901 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_posts.table.tmpr763.gz (23/21/fopen): adding to final database dump
+0016.907 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_posts.table.gz (24/21/fopen): adding to final database dump
+0016.910 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_term_relationships.table.tmpr100001.gz (25/21/fopen): adding to final database dump
+0016.912 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_term_relationships.table.gz (26/21/fopen): adding to final database dump
+0016.915 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_term_taxonomy.table.tmpr8.gz (27/21/fopen): adding to final database dump
+0016.918 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_term_taxonomy.table.gz (28/21/fopen): adding to final database dump
+0016.920 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_termmeta.table.tmpr0.gz (29/21/fopen): adding to final database dump
+0016.923 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_termmeta.table.gz (30/21/fopen): adding to final database dump
+0016.926 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_terms.table.tmpr8.gz (31/21/fopen): adding to final database dump
+0016.928 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_terms.table.gz (32/21/fopen): adding to final database dump
+0016.930 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_addonlibrary_addons.table.tmpr0.gz (33/21/fopen): adding to final database dump
+0016.933 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_addonlibrary_addons.table.gz (34/21/fopen): adding to final database dump
+0016.935 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_addonlibrary_categories.table.tmpr0.gz (35/21/fopen): adding to final database dump
+0016.937 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_addonlibrary_categories.table.gz (36/21/fopen): adding to final database dump
+0016.939 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_e_events.table.tmpr11.gz (37/21/fopen): adding to final database dump
+0016.941 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_e_events.table.gz (38/21/fopen): adding to final database dump
+0016.943 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_wpdm_social_shares.table.tmpr0.gz (39/21/fopen): adding to final database dump
+0016.946 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_wpdm_social_shares.table.gz (40/21/fopen): adding to final database dump
+0016.954 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_wpforms_tasks_meta.table.tmpr12.gz (41/21/fopen): adding to final database dump
+0016.957 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db-table-wp_wpforms_tasks_meta.table.gz (42/21/fopen): adding to final database dump
+0016.967 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db.gz: finished writing out complete database file (3310.2 KB)
+0017.017 (0) Total database tables backed up: 21 (backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db.gz, size: 3389755, sha1: 3f552f80a7e01935c394d6ceb45055c1f46074c2, sha256: 8b13aca071d2064c03c11cd2177be6c74da8e97234663e51292874fc8de8529f)
+0017.030 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-plugins.zip: plugins: This file has already been successfully uploaded
+0017.031 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-themes.zip: themes: This file has already been successfully uploaded
+0017.034 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-uploads.zip: uploads: This file has already been successfully uploaded
+0017.037 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-others.zip: others: This file has already been successfully uploaded
+0017.045 (0) backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db.gz: db: This file has not yet been successfully uploaded: will queue
+0017.050 (0) Saving backup history. Total backup size: 106.1 MB
+0017.057 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0017.067 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0017.070 (0) No remote despatch: user chose no remote backup service
+0017.072 (0) Recording as successfully uploaded: backup_2023-04-21-0143_Sanconett_96bcbcd9f5ad-db.gz
+0017.081 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0017.084 (0) Number of backup sets in history: 1; groups (db): 1
+0017.086 (0) Examining (for databases) backup set with group_id=0, nonce=96bcbcd9f5ad, datestamp=1682041436 (Apr 21 2023 01:43:56)
+0017.089 (0) This backup set is the backup set just made, so will not be deleted.
+0017.089 (0) Number of backup sets in history: 1; groups (files): 1
+0017.091 (0) Examining (for files) backup set with nonce=96bcbcd9f5ad, datestamp=1682041436 (Apr 21 2023 01:43:56)
+0017.091 (0) This backup set is the backup set just made, so will not be deleted.
+0017.093 (0) This backup set is the backup set just made, so will not be deleted.
+0017.093 (0) This backup set is the backup set just made, so will not be deleted.
+0017.093 (0) This backup set is the backup set just made, so will not be deleted.
+0017.093 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0017.100 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0017.105 (0) Resume backup (96bcbcd9f5ad, 0): finish run
+0017.112 (0) Decremented the semaphore (fd) by 1
+0017.116 (0) Semaphore (fd) unlocked
+0017.118 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0017.126 (0) No email will/can be sent - the user has not configured an email address.
+0017.128 (0) The backup apparently succeeded and is now complete
