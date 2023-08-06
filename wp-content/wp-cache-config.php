@@ -5,6 +5,7 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
+$wp_cache_debug_username = '1a24827ecc358a88bd46434f219f4e08';
 $wp_cache_home_path = '/sanconett-wp/';
 $wp_cache_slash_check = 1;
 $cache_page_secret = '6a135d518deffeb0a4225542327cf92e';
@@ -64,7 +65,7 @@ $wp_cache_debug_to_file = 0;
 $wp_super_cache_debug = 0;
 $wp_cache_debug_level = 5;
 $wp_cache_debug_ip = '';
-$wp_cache_debug_log = '';
+$wp_cache_debug_log = 'd57fa5d386e2da581a163604cae58ef8.php';
 $wp_cache_debug_email = '';
 $wp_cache_pages[ "search" ] = 0;
 $wp_cache_pages[ "feed" ] = 0;
