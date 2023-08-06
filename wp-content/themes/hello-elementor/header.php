@@ -21,6 +21,7 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="<?php echo esc_attr( $viewport_content ); ?>">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="google-site-verification" content="T8PWhz9WsZEgMuf_Uiio_QKUENHRdEJTDOFwS1IT_w0" />
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>

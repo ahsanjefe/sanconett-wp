@@ -47,7 +47,7 @@
 }
 
 .wp-caption {
-  margin-block-end: 1.25rem;
+  margin-bottom: 1.25rem;
   max-width: 100%;
 }
 .wp-caption.alignleft {
@@ -101,8 +101,9 @@
   margin-left: 3px;
 }
 
-/**
- * Utility styles
+/*
+DO NOT CHANGE THIS FILE
+to override any of the settings in this section, add your styling code in the custom directory.
  */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -137,8 +138,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   position: relative;
 }
 .site-header .site-navigation {
@@ -197,8 +198,8 @@
  * Footer styling and layout
  */
 .site-footer {
-  padding-block-start: 1rem;
-  padding-block-end: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   position: relative;
 }
 .site-footer .footer-inner {
@@ -285,7 +286,7 @@
   }
 }
 /**
- * Post item in archive pages
+ * Post Item in Archive
  */
 .post .entry-title a {
   text-decoration: none;
@@ -323,30 +324,33 @@
 #comments .pingback .comment-body {
   display: flex;
   flex-direction: column;
-  padding-block-start: 30px;
-  padding-block-end: 30px;
-  padding-inline-start: 60px;
-  padding-inline-end: 0;
-  border-block-end: 1px solid #cccccc;
+  padding: 30px 0 30px 60px;
+  border-bottom: 1px solid #cccccc;
 }
+body.rtl #comments .comment .comment-body,
+body.rtl #comments .pingback .comment-body {
+  padding: 30px 60px 30px 0;
+}
+
 #comments .comment .avatar,
 #comments .pingback .avatar {
   position: absolute;
   left: 0;
   border-radius: 50%;
-  margin-inline-end: 10px;
+  margin-right: 10px;
 }
-html[dir=rtl] #comments .comment .avatar, body.rtl #comments .comment .avatar,
-html[dir=rtl] #comments .pingback .avatar,
+body.rtl #comments .comment .avatar,
 body.rtl #comments .pingback .avatar {
   left: auto;
   right: 0;
+  margin-right: 0;
+  margin-left: 10px;
 }
 
 #comments .comment-meta {
   display: flex;
   justify-content: space-between;
-  margin-block-end: 0.9rem;
+  margin-bottom: 0.9rem;
 }
 #comments .reply,
 #comments .comment-metadata {
@@ -357,10 +361,15 @@ body.rtl #comments .pingback .avatar {
   position: relative;
   list-style: none;
   margin: 0;
-  padding-inline-start: 30px;
+  padding-left: 30px;
 }
+body.rtl #comments .children {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
 #comments .children li:last-child {
-  padding-block-end: 0;
+  padding-bottom: 0;
 }
 #comments ol.comment-list .children:before {
   display: inline-block;
@@ -373,7 +382,7 @@ body.rtl #comments .pingback .avatar {
   left: 0;
   width: auto;
 }
-html[dir=rtl] #comments ol.comment-list .children:before, body.rtl #comments ol.comment-list .children:before {
+body.rtl #comments ol.comment-list .children:before {
   content: "↩";
   left: auto;
   right: 0;
@@ -390,19 +399,19 @@ html[dir=rtl] #comments ol.comment-list .children:before, body.rtl #comments ol.
     padding: 30px 0;
   }
   #comments .children {
-    padding-inline-start: 20px;
+    padding-left: 20px;
   }
   #comments .comment .avatar {
     position: inherit;
     float: left;
   }
-  html[dir=rtl] #comments .comment .avatar, body.rtl #comments .comment .avatar {
+  body.rtl #comments .comment .avatar {
     float: right;
   }
 }
 
 /**
- * Navigation Menus
+ * Navigation Menu's
  */
 .site-header.header-inverted .site-navigation-toggle-holder {
   justify-content: flex-start;
@@ -462,7 +471,7 @@ html[dir=rtl] #comments ol.comment-list .children:before, body.rtl #comments ol.
   padding: 8px 15px;
 }
 .site-navigation ul.menu li.menu-item-has-children {
-  padding-inline-end: 15px;
+  padding-right: 15px;
 }
 .site-navigation ul.menu li.menu-item-has-children:after {
   display: block;
@@ -489,10 +498,10 @@ html[dir=rtl] #comments ol.comment-list .children:before, body.rtl #comments ol.
   top: 100%;
 }
 .site-navigation ul.menu li ul li {
-  border-block-end: #eeeeee 1px solid;
+  border-bottom: #eeeeee 1px solid;
 }
 .site-navigation ul.menu li ul li:last-child {
-  border-block-end: none;
+  border-bottom: none;
 }
 .site-navigation ul.menu li ul li.menu-item-has-children a {
   flex-grow: 1;
@@ -520,7 +529,7 @@ footer .site-navigation ul.menu a {
 }
 
 .site-navigation-dropdown {
-  margin-block-start: 10px;
+  margin-top: 10px;
   transition: max-height 0.3s, transform 0.3s;
   transform-origin: top;
   position: absolute;
@@ -604,18 +613,18 @@ footer .site-navigation ul.menu a {
 }
 
 /**
- * Responsive layouts
+ * Basic responsive layout
  */
 .site-header .header-inner, .site-header:not(.dynamic-header), .site-footer .footer-inner, .site-footer:not(.dynamic-footer), body:not([class*=elementor-page-]) .site-main, .page-header .entry-title {
-  margin-inline-start: auto;
-  margin-inline-end: auto;
+  margin-right: auto;
+  margin-left: auto;
   width: 100%;
 }
 
 @media (max-width: 575px) {
   .site-header .header-inner, .site-header:not(.dynamic-header), .site-footer .footer-inner, .site-footer:not(.dynamic-footer), body:not([class*=elementor-page-]) .site-main, .page-header .entry-title {
-    padding-inline-start: 10px;
-    padding-inline-end: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 @media (min-width: 576px) {

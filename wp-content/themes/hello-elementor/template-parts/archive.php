@@ -19,7 +19,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			?>
 		</header>
 	<?php endif; ?>
-
 	<div class="page-content">
 		<?php
 		while ( have_posts() ) {
@@ -51,5 +50,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="nav-next"><?php previous_posts_link( sprintf( __( 'newer %s', 'hello-elementor' ), '<span class="meta-nav">&rarr;</span>' ) ); ?></div>
 		</nav>
 	<?php endif; ?>
-
 </main>

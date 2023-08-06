@@ -1,5 +1,5 @@
 /**
- * Customizer editor styling
+ * Style for your Customizer editor.
  */
 #accordion-section-hello_theme_options .accordion-section-title {
   color: #c36;
@@ -28,7 +28,7 @@
 }
 
 .create-logo-desc {
-  margin-block-start: 10px;
+  margin-top: 10px;
   padding: 10px;
   background: white;
   font-style: italic;
@@ -36,10 +36,10 @@
 .create-logo-desc + .actions {
   background: white;
   padding: 0 10px 10px;
-  margin-block-end: 15px;
+  margin-bottom: 15px;
 }
 .create-logo-desc + .actions .button {
-  margin-block-start: 0;
+  margin-top: 0;
   width: 100%;
   text-align: center;
 }
