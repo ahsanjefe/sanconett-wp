@@ -10,10 +10,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
 <main id="content" class="site-main">
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	<?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
 		<header class="page-header">
 			<h1 class="entry-title">
@@ -22,10 +18,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</h1>
 		</header>
 	<?php endif; ?>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 	<div class="page-content">
 		<?php if ( have_posts() ) : ?>
 			<?php
@@ -63,8 +55,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<div class="nav-next"><?php previous_posts_link( sprintf( __( 'newer %s', 'hello-elementor' ), '<span class="meta-nav">&rarr;</span>' ) ); ?></div>
 		</nav>
 	<?php endif; ?>
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 </main>

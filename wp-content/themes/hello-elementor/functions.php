@@ -9,11 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-<<<<<<< Updated upstream
 define( 'HELLO_ELEMENTOR_VERSION', '2.7.1' );
-=======
-define( 'HELLO_ELEMENTOR_VERSION', '2.8.1' );
->>>>>>> Stashed changes
 
 if ( ! isset( $content_width ) ) {
 	$content_width = 800; // Pixels.
@@ -204,25 +200,6 @@ if ( ! function_exists( 'hello_elementor_check_hide_title' ) ) {
 }
 add_filter( 'hello_elementor_page_title', 'hello_elementor_check_hide_title' );
 
-<<<<<<< Updated upstream
-=======
-if ( ! function_exists( 'hello_elementor_add_description_meta_tag' ) ) {
-	/**
-	 * Add description meta tag with excerpt text.
-	 *
-	 * @return void
-	 */
-	function hello_elementor_add_description_meta_tag() {
-		$post = get_queried_object();
-
-		if ( is_singular() && ! empty( $post->post_excerpt ) ) {
-			echo '<meta name="description" content="' . esc_attr( wp_strip_all_tags( $post->post_excerpt ) ) . '">' . "\n";
-		}
-	}
-}
-add_action( 'wp_head', 'hello_elementor_add_description_meta_tag' );
-
->>>>>>> Stashed changes
 /**
  * BC:
  * In v2.7.0 the theme removed the `hello_elementor_body_open()` from `header.php` replacing it with `wp_body_open()`.

@@ -54,31 +54,20 @@ function hello_elementor_fail_load_admin_notice() {
 	<style>
 		.notice.hello-elementor-notice {
 			border: 1px solid #ccd0d4;
-<<<<<<< Updated upstream
 			border-left: 4px solid #9b0a46 !important;
-=======
-			border-inline-start: 4px solid #9b0a46 !important;
->>>>>>> Stashed changes
 			box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 			display: flex;
 			padding: 0px;
 		}
-<<<<<<< Updated upstream
 		.rtl .notice.hello-elementor-notice {
 			border-right-color: #9b0a46 !important;
 		}
-=======
->>>>>>> Stashed changes
 		.notice.hello-elementor-notice .hello-elementor-notice-aside {
 			width: 50px;
 			display: flex;
 			align-items: start;
 			justify-content: center;
-<<<<<<< Updated upstream
 			padding-top: 15px;
-=======
-			padding-block-start: 15px;
->>>>>>> Stashed changes
 			background: rgba(215,43,63,0.04);
 		}
 		.notice.hello-elementor-notice .hello-elementor-notice-aside img{
@@ -101,11 +90,7 @@ function hello_elementor_fail_load_admin_notice() {
 		}
 		.notice.hello-elementor-notice .hello-elementor-install-now {
 			display: block;
-<<<<<<< Updated upstream
 			margin-top: 15px;
-=======
-			margin-block-start: 15px;
->>>>>>> Stashed changes
 		}
 		.notice.hello-elementor-notice .hello-elementor-install-now .hello-elementor-install-button {
 			background: #127DB8;

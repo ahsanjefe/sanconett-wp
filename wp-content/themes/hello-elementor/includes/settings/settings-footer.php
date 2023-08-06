@@ -164,11 +164,7 @@ class Settings_Footer extends Tab_Base {
 					],
 				],
 				'selectors' => [
-<<<<<<< Updated upstream
 					'.site-footer' => 'padding-right: {{SIZE}}{{UNIT}}; padding-left: {{SIZE}}{{UNIT}}',
-=======
-					'.site-footer' => 'padding-inline-end: {{SIZE}}{{UNIT}}; padding-inline-start: {{SIZE}}{{UNIT}}',
->>>>>>> Stashed changes
 				],
 				'condition' => [
 					'hello_footer_layout!' => 'stacked',

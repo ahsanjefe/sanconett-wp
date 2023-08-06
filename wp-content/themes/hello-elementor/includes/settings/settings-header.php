@@ -153,11 +153,7 @@ class Settings_Header extends Tab_Base {
 					],
 				],
 				'selectors' => [
-<<<<<<< Updated upstream
 					'.site-header' => 'padding-right: {{SIZE}}{{UNIT}}; padding-left: {{SIZE}}{{UNIT}}',
-=======
-					'.site-header' => 'padding-inline-end: {{SIZE}}{{UNIT}}; padding-inline-start: {{SIZE}}{{UNIT}}',
->>>>>>> Stashed changes
 				],
 				'conditions' => [
 					'relation' => 'and',
