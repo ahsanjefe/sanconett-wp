@@ -47,7 +47,11 @@
 }
 
 .wp-caption {
+<<<<<<< Updated upstream
   margin-bottom: 1.25rem;
+=======
+  margin-block-end: 1.25rem;
+>>>>>>> Stashed changes
   max-width: 100%;
 }
 .wp-caption.alignleft {
@@ -101,9 +105,14 @@
   margin-left: 3px;
 }
 
+<<<<<<< Updated upstream
 /*
 DO NOT CHANGE THIS FILE
 to override any of the settings in this section, add your styling code in the custom directory.
+=======
+/**
+ * Utility styles
+>>>>>>> Stashed changes
  */
 .screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
@@ -138,8 +147,13 @@ to override any of the settings in this section, add your styling code in the cu
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+<<<<<<< Updated upstream
   padding-top: 1rem;
   padding-bottom: 1rem;
+=======
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+>>>>>>> Stashed changes
   position: relative;
 }
 .site-header .site-navigation {
@@ -198,8 +212,13 @@ to override any of the settings in this section, add your styling code in the cu
  * Footer styling and layout
  */
 .site-footer {
+<<<<<<< Updated upstream
   padding-top: 1rem;
   padding-bottom: 1rem;
+=======
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+>>>>>>> Stashed changes
   position: relative;
 }
 .site-footer .footer-inner {
@@ -286,7 +305,11 @@ to override any of the settings in this section, add your styling code in the cu
   }
 }
 /**
+<<<<<<< Updated upstream
  * Post Item in Archive
+=======
+ * Post item in archive pages
+>>>>>>> Stashed changes
  */
 .post .entry-title a {
   text-decoration: none;
@@ -324,6 +347,7 @@ to override any of the settings in this section, add your styling code in the cu
 #comments .pingback .comment-body {
   display: flex;
   flex-direction: column;
+<<<<<<< Updated upstream
   padding: 30px 0 30px 60px;
   border-bottom: 1px solid #cccccc;
 }
@@ -332,11 +356,20 @@ body.rtl #comments .pingback .comment-body {
   padding: 30px 60px 30px 0;
 }
 
+=======
+  padding-block-start: 30px;
+  padding-block-end: 30px;
+  padding-inline-start: 60px;
+  padding-inline-end: 0;
+  border-block-end: 1px solid #cccccc;
+}
+>>>>>>> Stashed changes
 #comments .comment .avatar,
 #comments .pingback .avatar {
   position: absolute;
   left: 0;
   border-radius: 50%;
+<<<<<<< Updated upstream
   margin-right: 10px;
 }
 body.rtl #comments .comment .avatar,
@@ -345,12 +378,25 @@ body.rtl #comments .pingback .avatar {
   right: 0;
   margin-right: 0;
   margin-left: 10px;
+=======
+  margin-inline-end: 10px;
+}
+html[dir=rtl] #comments .comment .avatar, body.rtl #comments .comment .avatar,
+html[dir=rtl] #comments .pingback .avatar,
+body.rtl #comments .pingback .avatar {
+  left: auto;
+  right: 0;
+>>>>>>> Stashed changes
 }
 
 #comments .comment-meta {
   display: flex;
   justify-content: space-between;
+<<<<<<< Updated upstream
   margin-bottom: 0.9rem;
+=======
+  margin-block-end: 0.9rem;
+>>>>>>> Stashed changes
 }
 #comments .reply,
 #comments .comment-metadata {
@@ -361,6 +407,7 @@ body.rtl #comments .pingback .avatar {
   position: relative;
   list-style: none;
   margin: 0;
+<<<<<<< Updated upstream
   padding-left: 30px;
 }
 body.rtl #comments .children {
@@ -370,6 +417,12 @@ body.rtl #comments .children {
 
 #comments .children li:last-child {
   padding-bottom: 0;
+=======
+  padding-inline-start: 30px;
+}
+#comments .children li:last-child {
+  padding-block-end: 0;
+>>>>>>> Stashed changes
 }
 #comments ol.comment-list .children:before {
   display: inline-block;
@@ -382,7 +435,11 @@ body.rtl #comments .children {
   left: 0;
   width: auto;
 }
+<<<<<<< Updated upstream
 body.rtl #comments ol.comment-list .children:before {
+=======
+html[dir=rtl] #comments ol.comment-list .children:before, body.rtl #comments ol.comment-list .children:before {
+>>>>>>> Stashed changes
   content: "↩";
   left: auto;
   right: 0;
@@ -399,19 +456,31 @@ body.rtl #comments ol.comment-list .children:before {
     padding: 30px 0;
   }
   #comments .children {
+<<<<<<< Updated upstream
     padding-left: 20px;
+=======
+    padding-inline-start: 20px;
+>>>>>>> Stashed changes
   }
   #comments .comment .avatar {
     position: inherit;
     float: left;
   }
+<<<<<<< Updated upstream
   body.rtl #comments .comment .avatar {
+=======
+  html[dir=rtl] #comments .comment .avatar, body.rtl #comments .comment .avatar {
+>>>>>>> Stashed changes
     float: right;
   }
 }
 
 /**
+<<<<<<< Updated upstream
  * Navigation Menu's
+=======
+ * Navigation Menus
+>>>>>>> Stashed changes
  */
 .site-header.header-inverted .site-navigation-toggle-holder {
   justify-content: flex-start;
@@ -471,7 +540,11 @@ body.rtl #comments ol.comment-list .children:before {
   padding: 8px 15px;
 }
 .site-navigation ul.menu li.menu-item-has-children {
+<<<<<<< Updated upstream
   padding-right: 15px;
+=======
+  padding-inline-end: 15px;
+>>>>>>> Stashed changes
 }
 .site-navigation ul.menu li.menu-item-has-children:after {
   display: block;
@@ -498,10 +571,17 @@ body.rtl #comments ol.comment-list .children:before {
   top: 100%;
 }
 .site-navigation ul.menu li ul li {
+<<<<<<< Updated upstream
   border-bottom: #eeeeee 1px solid;
 }
 .site-navigation ul.menu li ul li:last-child {
   border-bottom: none;
+=======
+  border-block-end: #eeeeee 1px solid;
+}
+.site-navigation ul.menu li ul li:last-child {
+  border-block-end: none;
+>>>>>>> Stashed changes
 }
 .site-navigation ul.menu li ul li.menu-item-has-children a {
   flex-grow: 1;
@@ -529,7 +609,11 @@ footer .site-navigation ul.menu a {
 }
 
 .site-navigation-dropdown {
+<<<<<<< Updated upstream
   margin-top: 10px;
+=======
+  margin-block-start: 10px;
+>>>>>>> Stashed changes
   transition: max-height 0.3s, transform 0.3s;
   transform-origin: top;
   position: absolute;
@@ -613,18 +697,31 @@ footer .site-navigation ul.menu a {
 }
 
 /**
+<<<<<<< Updated upstream
  * Basic responsive layout
  */
 .site-header .header-inner, .site-header:not(.dynamic-header), .site-footer .footer-inner, .site-footer:not(.dynamic-footer), body:not([class*=elementor-page-]) .site-main, .page-header .entry-title {
   margin-right: auto;
   margin-left: auto;
+=======
+ * Responsive layouts
+ */
+.site-header .header-inner, .site-header:not(.dynamic-header), .site-footer .footer-inner, .site-footer:not(.dynamic-footer), body:not([class*=elementor-page-]) .site-main, .page-header .entry-title {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+>>>>>>> Stashed changes
   width: 100%;
 }
 
 @media (max-width: 575px) {
   .site-header .header-inner, .site-header:not(.dynamic-header), .site-footer .footer-inner, .site-footer:not(.dynamic-footer), body:not([class*=elementor-page-]) .site-main, .page-header .entry-title {
+<<<<<<< Updated upstream
     padding-right: 10px;
     padding-left: 10px;
+=======
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+>>>>>>> Stashed changes
   }
 }
 @media (min-width: 576px) {

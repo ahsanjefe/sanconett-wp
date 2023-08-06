@@ -14,11 +14,19 @@ while ( have_posts() ) :
 	?>
 
 <main id="content" <?php post_class( 'site-main' ); ?>>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 	<?php if ( apply_filters( 'hello_elementor_page_title', true ) ) : ?>
 		<header class="page-header">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 		</header>
 	<?php endif; ?>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 	<div class="page-content">
 		<?php the_content(); ?>
 		<div class="post-tags">
@@ -28,6 +36,10 @@ while ( have_posts() ) :
 	</div>
 
 	<?php comments_template(); ?>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 </main>
 
 	<?php

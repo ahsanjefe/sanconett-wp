@@ -3,6 +3,7 @@
 Contributors: elemntor, KingYes, ariel.k, jzaltzberg, mati1000, bainternet
 Requires at least: 5.9
 Tested up to: 6.2
+<<<<<<< Updated upstream
 Stable tag: 2.7.1
 Version: 2.7.1
 Requires PHP: 5.6
@@ -76,6 +77,27 @@ Yes, ***but*** best practice is to use the styling capabilities in the Elementor
 == Copyright ==
 
 This theme, like WordPress, is licensed under the GPL.
+=======
+Stable tag: 2.8.1
+Version: 2.8.1
+Requires PHP: 7.0
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+
+A lightweight and minimalist WordPress theme for Elementor page builder.
+
+== Description ==
+
+Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor page builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website.
+
+The theme's main focus is on providing a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. It is optimized for speed and performance, and its simplicity and flexibility make it a great choice for both beginners and experienced website designers.
+
+The theme supports common WordPress features which can be extended using a child-theme. In addition, there are several ways to add custom styles. It can be done from **Elementor**, from the WordPress customizer, using a child-theme, or with an external plugin. To customize the theme further, visit [Elementor developers docs](https://developers.elementor.com/docs/hello-elementor-theme/).
+
+== Copyright ==
+
+This theme, like WordPress, is distributed under the terms of GPL.
+>>>>>>> Stashed changes
 Use it as your springboard to building a site with ***Elementor***.
 
 Hello Elementor bundles the following third-party resources:
@@ -90,11 +112,31 @@ Source: https://stocksnap.io/photo/4B83RD7BV9
 
 == Changelog ==
 
+<<<<<<< Updated upstream
 = 2.7.1 - 2023-03-27 =
 * Tweak: Add excerpt support for pages [ED-10254]
 * Tweak: When comments is closed to post, display it to the user
 * Fix: Empty "Skip to content" href ([#276](https://github.com/elementor/hello-theme/issues/276))
 * Fix: Child themes using hello_elementor_body_open() no longer working ([#278](https://github.com/elementor/hello-theme/issues/278))
+=======
+= 2.8.1 - 2023-07-05 =
+* Tweak: Added additional CSS selectors to apply RTL on comments
+* Fix: Comment area style regression
+
+= 2.8.0 - 2023-07-04 =
+* Tweak: Update `Requires PHP 7.0`
+* Tweak: Added description meta tag with excerpt text
+* Tweak: Use CSS logical properties rather than physical properties
+* Tweak: Replace legacy `page-break-*` CSS properties with `break-*` properties
+* Tweak: Remove duplicate CSS classes for screen readers
+* Tweak: Merge similar translation strings (i18n)
+
+= 2.7.1 - 2023-03-27 =
+* Tweak: Add excerpt support for pages
+* Tweak: When post comments are closed, display it to the user
+* Fix: Empty "Skip to content" href ([#276](https://github.com/elementor/hello-theme/issues/276))
+* Fix: Child themes using `hello_elementor_body_open()` no longer working ([#278](https://github.com/elementor/hello-theme/issues/278))
+>>>>>>> Stashed changes
 
 = 2.7.0 - 2023-03-26 =
 * Tweak: Update `Requires at least 5.9`
