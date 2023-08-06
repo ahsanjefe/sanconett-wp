@@ -97,6 +97,8 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+define( 'WPCACHEHOME', 'C:\xampp\htdocs\sanconett-wp\wp-content\plugins\wp-super-cache/' );
 define( 'DB_NAME', 'sanconettdb3' );
 
 /** Database username */
