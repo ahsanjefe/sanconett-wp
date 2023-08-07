@@ -66,9 +66,9 @@ class Updater {
 		// include an unmodified $wp_version
 		include( ABSPATH . WPINC . '/version.php' );
 
-		if ( version_compare( $wp_version, $version_info['requires'], '<' ) ) {
-			return $_transient_data;
-		}
+		// if ( version_compare( $wp_version, $version_info['requires'], '<' ) ) {
+		// 	return $_transient_data;
+		// }
 
 		if ( ! empty( $version_info['elementor_requires'] ) ) {
 			if ( version_compare( ELEMENTOR_VERSION, $version_info['elementor_requires'], '<' ) ) {
@@ -81,13 +81,13 @@ class Updater {
 
 		$plugin_info->plugin = $this->plugin_name;
 
-		if ( version_compare( $this->plugin_version, $version_info['new_version'], '<' ) ) {
-			$_transient_data->response[ $this->plugin_name ] = $plugin_info;
-			$_transient_data->checked[ $this->plugin_name ] = $version_info['new_version'];
-		} else {
-			$_transient_data->no_update[ $this->plugin_name ] = $plugin_info;
-			$_transient_data->checked[ $this->plugin_name ] = $this->plugin_version;
-		}
+		// if ( version_compare( $this->plugin_version, $version_info['new_version'], '<' ) ) {
+		// 	$_transient_data->response[ $this->plugin_name ] = $plugin_info;
+		// 	$_transient_data->checked[ $this->plugin_name ] = $version_info['new_version'];
+		// } else {
+		// 	$_transient_data->no_update[ $this->plugin_name ] = $plugin_info;
+		// 	$_transient_data->checked[ $this->plugin_name ] = $this->plugin_version;
+		// }
 
 		$_transient_data->last_checked = current_time( 'timestamp' );
 
