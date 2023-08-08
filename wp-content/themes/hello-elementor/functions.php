@@ -226,3 +226,18 @@ if ( ! function_exists( 'hello_elementor_body_open' ) ) {
 		wp_body_open();
 	}
 }
+
+function um_033021_logout_user_links( $args ) {
+	?>
+
+	<li>
+		<a href="<?php echo esc_url( add_query_arg( 'redirect_to', UM()->permalinks()->get_current_url( true ), um_get_core_page( 'logout' ) ) ); ?>">
+			<?php _e( 'Logout', 'ultimate-member' ); ?>
+		</a>
+	</li>
+
+	<?php
+}
+
+remove_action( 'um_logout_user_links', 'um_logout_user_links', 100 );
+add_action( 'um_logout_user_links', 'um_033021_logout_user_links', 100 );
