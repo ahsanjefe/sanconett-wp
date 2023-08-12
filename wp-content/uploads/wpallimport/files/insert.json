@@ -1,0 +1,334 @@
+[
+    {
+        "noticeId": "ffcc14bdbaff4360ab3d58b72a51baa7",
+        "title": "Sole Source Intent - Fire Truck Parts",
+        "solicitationNumber": "M6740023Q0087",
+        "fullParentPathName": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCORP I&L.MARINE CORPS INSTALLATIONS COMMAND.MCIPAC.COMMANDING OFFICER",
+        "fullParentPathCode": "017.1700.USMC.MARCORP I&L.MCICOM.MCIPAC.M67400",
+        "postedDate": "2023-08-11",
+        "type": "Justification",
+        "baseType": "Justification",
+        "archiveType": "auto30",
+        "archiveDate": "2023-09-10",
+        "typeOfSetAsideDescription": null,
+        "typeOfSetAside": null,
+        "responseDeadLine": null,
+        "naicsCode": "336390",
+        "naicsCodes": [
+            "336390"
+        ],
+        "classificationCode": "2590",
+        "active": "Yes",
+        "award": {
+            "date": "2023-09-01",
+            "number": "M6740023F0140"
+        },
+        "pointOfContact": [
+            {
+                "fax": "",
+                "type": "primary",
+                "email": "daniel.nachlas@usmc.mil",
+                "phone": "",
+                "title": null,
+                "fullName": "Sgt Daniel Nachlas"
+            },
+            {
+                "fax": "",
+                "type": "secondary",
+                "email": "robert.siewert@usmc.mil",
+                "phone": "3156457642",
+                "title": null,
+                "fullName": "GySgt Robert F. Siewert"
+            }
+        ],
+        "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffcc14bdbaff4360ab3d58b72a51baa7",
+        "organizationType": "OFFICE",
+        "officeAddress": {
+            "zipcode": "96379-5002",
+            "city": "FPO",
+            "countryCode": "USA",
+            "state": "AP"
+        },
+        "placeOfPerformance": null,
+        "additionalInfoLink": null,
+        "uiLink": "https://sam.gov/opp/ffcc14bdbaff4360ab3d58b72a51baa7/view",
+        "links": [
+            {
+                "rel": "self",
+                "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=ffcc14bdbaff4360ab3d58b72a51baa7&limit=1"
+            }
+        ],
+        "resourceLinks": [
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/59fd361fa9c949b697147a7e2d6c4d25/download?api_key=null&token=",
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/70674a8b048749cc809341d1f2c58fa3/download?api_key=null&token="
+        ]
+    },
+    {
+        "noticeId": "ffa85b2c06d24fe295c506b0019ec3fd",
+        "title": "Notice of Intent to Sole Source Stratfor Worldview",
+        "solicitationNumber": "",
+        "fullParentPathName": "DEPT OF DEFENSE.DEPT OF THE NAVY.USMC.MARCORP I&L.MARINE CORPS INSTALLATIONS COMMAND.MCINCR.COMMANDER",
+        "fullParentPathCode": "017.1700.USMC.MARCORP I&L.MCICOM.MCINCR.M00264",
+        "postedDate": "2023-08-11",
+        "type": "Special Notice",
+        "baseType": "Special Notice",
+        "archiveType": "auto15",
+        "archiveDate": "2023-08-31",
+        "typeOfSetAsideDescription": "Total Small Business Set-Aside (FAR 19.5)",
+        "typeOfSetAside": "SBA",
+        "responseDeadLine": "2023-08-16T08:00:00-04:00",
+        "naicsCode": "519290",
+        "naicsCodes": [
+            "519290"
+        ],
+        "classificationCode": "7630",
+        "active": "Yes",
+        "award": null,
+        "pointOfContact": [
+            {
+                "fax": "",
+                "type": "primary",
+                "email": "genia.fouts@usmc.mil",
+                "phone": "",
+                "title": null,
+                "fullName": "Genia Fouts"
+            }
+        ],
+        "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ffa85b2c06d24fe295c506b0019ec3fd",
+        "organizationType": "OFFICE",
+        "officeAddress": {
+            "zipcode": "22134",
+            "city": "QUANTICO",
+            "countryCode": "USA",
+            "state": "VA"
+        },
+        "placeOfPerformance": {
+            "city": {
+                "code": "65120",
+                "name": "Quantico"
+            },
+            "state": {
+                "code": "VA",
+                "name": "Virginia"
+            },
+            "zip": "22134",
+            "country": {
+                "code": "USA",
+                "name": "UNITED STATES"
+            }
+        },
+        "additionalInfoLink": null,
+        "uiLink": "https://sam.gov/opp/ffa85b2c06d24fe295c506b0019ec3fd/view",
+        "links": [
+            {
+                "rel": "self",
+                "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=ffa85b2c06d24fe295c506b0019ec3fd&limit=1"
+            }
+        ],
+        "resourceLinks": null
+    },
+    {
+        "noticeId": "ff7f7ac9cfde499ba8a274c1f198a2b0",
+        "title": "15--PARTS KIT,CONTROL S",
+        "solicitationNumber": "SPE4A723T364E",
+        "fullParentPathName": "DEPT OF DEFENSE.DEFENSE LOGISTICS AGENCY (DLA).DLA AVIATION.DLA AV RICHMOND.DLA AVIATION",
+        "fullParentPathCode": "097.97AS.DLA AVIATION.DLA AV RICHMOND.SPE4A7",
+        "postedDate": "2023-08-11",
+        "type": "Award Notice",
+        "baseType": "Award Notice",
+        "archiveType": "auto15",
+        "archiveDate": "2023-08-26",
+        "typeOfSetAsideDescription": null,
+        "typeOfSetAside": null,
+        "responseDeadLine": null,
+        "naicsCode": "336413",
+        "naicsCodes": [
+            "336413"
+        ],
+        "classificationCode": "15",
+        "active": "Yes",
+        "award": {
+            "date": "2023-08-11",
+            "number": "SPE4A723PD906",
+            "amount": "77000.00",
+            "awardee": {
+                "name": "G. S. E. DYNAMICS, INC.",
+                "ueiSAM": "Z86FMF9P1KD6",
+                "cageCode": "29183"
+            }
+        },
+        "pointOfContact": [
+            {
+                "fax": null,
+                "type": "primary",
+                "email": "LaTrice.Brown@dla.mil",
+                "phone": null,
+                "title": null,
+                "fullName": "Latrice BrownDSN695-1365"
+            }
+        ],
+        "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ff7f7ac9cfde499ba8a274c1f198a2b0",
+        "organizationType": "OFFICE",
+        "officeAddress": {
+            "zipcode": "23237",
+            "city": "RICHMOND",
+            "countryCode": "USA",
+            "state": "VA"
+        },
+        "placeOfPerformance": null,
+        "additionalInfoLink": null,
+        "uiLink": "https://sam.gov/opp/ff7f7ac9cfde499ba8a274c1f198a2b0/view",
+        "links": [
+            {
+                "rel": "self",
+                "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=ff7f7ac9cfde499ba8a274c1f198a2b0&limit=1"
+            }
+        ],
+        "resourceLinks": null
+    },
+    {
+        "noticeId": "ff39b6df0b124905aac9cbf5fb1b36f7",
+        "title": "6515--760-23-4-050-1331 - Leavenworth CMOP  OM MED SUPPLIES (XL551, XJ652) (VA-23-00093816)",
+        "solicitationNumber": "36C77023Q0373",
+        "fullParentPathName": "VETERANS AFFAIRS, DEPARTMENT OF.VETERANS AFFAIRS, DEPARTMENT OF.NATIONAL CMOP OFFICE (36C770)",
+        "fullParentPathCode": "036.3600.36C770",
+        "postedDate": "2023-08-11",
+        "type": "Presolicitation",
+        "baseType": "Presolicitation",
+        "archiveType": "autocustom",
+        "archiveDate": "2023-10-10",
+        "typeOfSetAsideDescription": "Total Small Business Set-Aside (FAR 19.5)",
+        "typeOfSetAside": "SBA",
+        "responseDeadLine": "",
+        "naicsCode": "325413",
+        "naicsCodes": [
+            "325413"
+        ],
+        "classificationCode": "6515",
+        "active": "Yes",
+        "award": {
+            "awardee": {}
+        },
+        "pointOfContact": [
+            {
+                "fax": "",
+                "type": "primary",
+                "email": "kelley.cunningham@va.gov",
+                "phone": "913-684-0140",
+                "title": "Contract Specialist",
+                "fullName": "Kelley Cunningham"
+            }
+        ],
+        "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=ff39b6df0b124905aac9cbf5fb1b36f7",
+        "organizationType": "OFFICE",
+        "officeAddress": {
+            "zipcode": "66048",
+            "city": "LEAVENWORTH",
+            "countryCode": "USA",
+            "state": "KS"
+        },
+        "placeOfPerformance": {
+            "streetAddress": "Department of Veterans Affairs VA CMOP Leavenworth - 760",
+            "streetAddress2": " 5000 S. 13th Street",
+            "city": {
+                "name": "Leavenworth"
+            },
+            "state": {
+                "name": "KS"
+            },
+            "zip": "66048-5580",
+            "country": {
+                "name": ""
+            }
+        },
+        "additionalInfoLink": null,
+        "uiLink": "https://sam.gov/opp/ff39b6df0b124905aac9cbf5fb1b36f7/view",
+        "links": [
+            {
+                "rel": "self",
+                "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=ff39b6df0b124905aac9cbf5fb1b36f7&limit=1"
+            }
+        ],
+        "resourceLinks": [
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/db5df4470bd2464187dff87f79810c58/download?api_key=null&token="
+        ]
+    },
+    {
+        "noticeId": "fef7480390fc4e43afbf90010b98460c",
+        "title": "MBMV222332 Repair Base Road Sealant and Striping",
+        "solicitationNumber": "W50S84-23-B-0002",
+        "fullParentPathName": "DEPT OF DEFENSE.DEPT OF THE ARMY.NGB.W7NF USPFO ACTIVITY MIANG 110",
+        "fullParentPathCode": "021.2100.NGB.W50S84",
+        "postedDate": "2023-08-11",
+        "type": "Solicitation",
+        "baseType": "Solicitation",
+        "archiveType": "auto15",
+        "archiveDate": "2023-09-22",
+        "typeOfSetAsideDescription": "Women-Owned Small Business (WOSB) Program Set-Aside (FAR 19.15)",
+        "typeOfSetAside": "WOSB",
+        "responseDeadLine": "2023-09-07T10:00:00-04:00",
+        "naicsCode": "237310",
+        "naicsCodes": [
+            "237310"
+        ],
+        "classificationCode": "Z1LB",
+        "active": "Yes",
+        "award": null,
+        "pointOfContact": [
+            {
+                "fax": "",
+                "type": "primary",
+                "email": "michael.kitchell.1@us.af.mil",
+                "phone": "2699693363",
+                "title": null,
+                "fullName": "Michael Kitchell"
+            },
+            {
+                "fax": "",
+                "type": "secondary",
+                "email": "michael.solo.4@us.af.mil",
+                "phone": "2699693259",
+                "title": null,
+                "fullName": "MSgt Michael Solo"
+            }
+        ],
+        "description": "https://api.sam.gov/prod/opportunities/v1/noticedesc?noticeid=fef7480390fc4e43afbf90010b98460c",
+        "organizationType": "OFFICE",
+        "officeAddress": {
+            "zipcode": "49015-5515",
+            "city": "BATTLE CREEK",
+            "countryCode": "USA",
+            "state": "MI"
+        },
+        "placeOfPerformance": {
+            "city": {
+                "code": "5920",
+                "name": "Battle Creek"
+            },
+            "state": {
+                "code": "MI",
+                "name": "Michigan"
+            },
+            "zip": "49037",
+            "country": {
+                "code": "USA",
+                "name": "UNITED STATES"
+            }
+        },
+        "additionalInfoLink": null,
+        "uiLink": "https://sam.gov/opp/fef7480390fc4e43afbf90010b98460c/view",
+        "links": [
+            {
+                "rel": "self",
+                "href": "https://api.sam.gov/prod/opportunities/v2/search?noticeid=fef7480390fc4e43afbf90010b98460c&limit=1"
+            }
+        ],
+        "resourceLinks": [
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/34d207397fc54c2c8b6133c7cf6b5206/download?api_key=null&token=",
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/87d24a8ab59a4a279c36cca8295b465e/download?api_key=null&token=",
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/b085e5c0933d46c1906c7317d268ec4f/download?api_key=null&token=",
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/c9ce6ce7b2ca45b6a273a7af4f4a2225/download?api_key=null&token=",
+            "https://sam.gov/api/prod/opps/v3/opportunities/resources/files/e4e92e20819a485699a14a8a21bef5ec/download?api_key=null&token="
+        ]
+    }
+]
