@@ -1,0 +1,19 @@
+# Directories
+/.idea
+/api
+/docs
+/public
+/output
+/vendor
+
+# Files
+composer.phar
+composer.lock
+test.php
+.phpintel
+/nbproject
+
+.php_cs-fixer
+.php-cs-fixer.cache
+
+.phpunit.result.cache
