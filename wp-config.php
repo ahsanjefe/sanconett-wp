@@ -139,6 +139,14 @@ define( 'AUTH_SALT',        '3l7SM.*4?atj1V+<vakp_:pNed2@$71=5$k|I 1o(Pl2S%l5;3p
 define( 'SECURE_AUTH_SALT', 'vw.6Z2keBiNpx9lJ_L_JC.F@?bD@H!$K _=LC1bXr(.1ai3arEqwep+be:=4 u[L' );
 define( 'LOGGED_IN_SALT',   'iyZuKavnIHSrP+E,Roa3sI+%C^^&N.7xf=}8.Rx9S3@=+,t4m% KXJLI[XojvpHY' );
 define( 'NONCE_SALT',       'F&j?i]9-<oi-cFpjn3,k3E{eeMkoI:S.%p.(jB0:p.p,3>=)3^a8+d_&(&:m& Y[' );
+define( 'HUBSPOT_TO_SALESLINK_APP_ID', 'test');
+define( 'HUBSPOT_TO_SALESLINK_APP_CLIENT_SECRET', 'test');
+define( 'HUBSPOT_TO_SALESLINK_HUBSPOT_OAUTH_TOKEN', 'test');
+define( 'HUBSPOT_TO_SALESLINK_LOG_PATH', 'Sam Cron Logs');
+define( 'HUBSPOT_TO_SALESLINK_WEBHOOK_SECRET', 'test');
+define( 'HUBSPOT_TO_SALESLINK_CLOUDLINK_API_BASE_URI', 'test');
+define( 'HUBSPOT_TO_SALESLINK_CLOUDLINK_API_KEY', 'test');
+define( 'SAM_API_KEY', 'VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa');
 
 /**#@-*/
 

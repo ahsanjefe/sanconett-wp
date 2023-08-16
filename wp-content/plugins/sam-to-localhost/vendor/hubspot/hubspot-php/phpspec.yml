@@ -1,5 +1,0 @@
-suites:
-    main:
-        namespace: SevenShores\Hubspot
-        psr4_prefix: SevenShores\Hubspot
-        spec_path: tests
