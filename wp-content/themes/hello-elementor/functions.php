@@ -675,6 +675,7 @@ function my_acf_add_local_field_groups()
                     ),
                 ),
             ),
+            'graphql_field_name' => 'OpportunityInput', // This is the name of the field group in GraphQL
         )
     );
 }
