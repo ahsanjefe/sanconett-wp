@@ -11,6 +11,7 @@ use Snapshot\SamSync\Http\HubSpotDealWebhookController;
 use Snapshot\SamSync\Jobs\SyncSalesLinkChangesToHubSpot;
 use Snapshot\SamSync\Jobs\CloudlinkToLocalHost;
 use Snapshot\SamSync\Jobs\HubSpotToLocalHost;
+use Snapshot\SamSync\Jobs\Sam2LocalHost;
 
 /**
  * A class which allows for a single entry-point to bootstrap the plugin
@@ -25,9 +26,10 @@ class Plugin
     public static function init(string $validationType)
     {
         Config::init($validationType);
-        HubSpotDealWebhookController::init($validationType);
-        SyncSalesLinkChangesToHubSpot::init();
-        CloudlinkToLocalHost::init();
+        // HubSpotDealWebhookController::init($validationType);
+        // SyncSalesLinkChangesToHubSpot::init();
+        // CloudlinkToLocalHost::init();
         // HubSpotToLocalHost::init();
+        Sam2LocalHost::init();
     }
 }

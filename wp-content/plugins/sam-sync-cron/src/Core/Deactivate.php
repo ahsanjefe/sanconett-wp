@@ -8,6 +8,7 @@ namespace Snapshot\SamSync\Core;
 use Snapshot\SamSync\Jobs\SyncSalesLinkChangesToHubSpot;
 use Snapshot\SamSync\Jobs\HubSpotToLocalHost;
 use Snapshot\SamSync\Jobs\CloudlinkToLocalHost;
+use Snapshot\SamSync\Jobs\Sam2LocalHost;
 
 class Deactivate
 {
@@ -15,8 +16,9 @@ class Deactivate
     {
         flush_rewrite_rules();
 
-        SyncSalesLinkChangesToHubSpot::destroy();
-        HubSpotToLocalHost::destroy();
-        CloudlinkToLocalHost::destroy();
+        // SyncSalesLinkChangesToHubSpot::destroy();
+        // HubSpotToLocalHost::destroy();
+        // CloudlinkToLocalHost::destroy();
+        Sam2LocalHost::destroy();
     }
 }

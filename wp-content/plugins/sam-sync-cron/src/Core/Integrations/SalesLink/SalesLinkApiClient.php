@@ -6,9 +6,12 @@
 namespace Snapshot\SamSync\Core\Integrations\SalesLink;
 
 use Carbon\Carbon;
-use GuzzleHttp\Client;
 use Monolog\Logger;
+use GuzzleHttp\Client;
 use Snapshot\SamSync\Core\Config;
+use Psr\Http\Message\ResponseInterface;
+use GuzzleHttp\Exception\RequestException;
+use \GuzzleHttp\Exception\ConnectException;
 // use Snapshot\SamSync\Core\Integrations\SalesLink\SalesLinkApiEnvironment;
 
 /**
@@ -33,9 +36,10 @@ class SalesLinkApiClient
         $this->logger = $logger;
 
         $this->client = new Client([
-            'verify' => false
+            'verify'  => 'C:\xampp8.2\php\cacert.pem',
+            'timeout'  => 2.0,
         ]);
-        $this->api_key = Config::getApiKey();
+        // $this->api_key = Config::getApiKey();
     }
 
     /**
@@ -210,37 +214,93 @@ class SalesLinkApiClient
         // $check = $client->sendAsync($request)->wait();
         
         // $check = $this->client->request('https://api.sam.gov/opportunities/v2/search?limit='.$limit.'&postedFrom='.$postedFrom.'&postedTo='.$postedTo.'&api_key=VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa', [
-        // $check = $this->client->request('GET', 'https://api.sam.gov/opportunities/v2/search?limit=1000&postedFrom=01/01/2013&postedTo=12/31/2013&api_key=VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa', [
-        //     'verify' => false,
-        //     'headers' => [
-        //         'Accept' => 'application/json',
+        try {
+            // $jar = new \GuzzleHttp\Cookie\CookieJar();
+            // $check = $this->client->request('GET', "http://api.sam.gov/opportunities/v2/search?limit=1000&postedFrom=01/01/2013&postedTo=12/31/2013&api_key=VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa", [
+            //     'verify'  => 'C:\xampp8.2\php\cacert.pem',
+            //     'allow_redirects' => true,
+            //     'cookies' => true,
+            //     'connect_timeout' => 10,
+            //     'debug' => true,
+            //     // 'force_ip_resolve' => 'v6',
+            //     'cookies' => $jar,
+            //     'headers' => [
+            //         'Accept' => 'application/json',
+            //         'Host'  => 'https://api.sam.gov',
+            //         'api_key' => 'VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa',
+            //         'Cookie' => 'citrix_ns_id=h6Ar+Kh5BVjErQqC0WUdHqeB9wY0003',
+            //     ],
+            //     'proxy' => 'http://localhost:80',
+                
+            // ]);
+            $curl = curl_init();
 
-        //         'Host' => 'api.sam.gov'
-        //         ]
-        // ]);
+            curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://api.sam.gov/prod/opportunities/v2/search?noticeid=c6c00cd76e7740fcbfe03272458a8007&limit=1&api_key=VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa',
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'GET',
+            CURLOPT_HTTPHEADER => array(
+                'api_key: VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa',
+                'Cookie: citrix_ns_id=h6Ar+Kh5BVjErQqC0WUdHqeB9wY0003'
+            ),
+            ));
+
+            $check = curl_exec($curl);
+            
+            curl_close($curl);
+
+            return $check;
+            // dd($check);
+
+            // $status = $check->getStatusCode();
+            // $body   = $check->getBody()->getContents();
+
+            // $this->logger->info('check ' . $check);
+            // $this->logger->info('$body' . $body);
+            
+        } catch ( ConnectException $e ) {
+            $error = [
+                'status' => 404,
+                'body'   => $e->getMessage(),
+            ];
+            
+            $this->logger->info('$error' . $e->getMessage());
+            // return $error;
+        } 
+        // 'verify' => false,
+        // 'headers' => [
+        //     'Accept' => 'application/json',
+        //     'Host' => 'api.sam.gov'
+        //     'Cookie' => 'api.sam.gov'
+        //     ]
         
-        $curl = curl_init();
+        // $curl = curl_init();
 
-        curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://api.sam.gov/opportunities/v2/search?api_key=VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa&limit=1000&postedFrom=01%2F01%2F2013&postedTo=12%2F31%2F2013',
-        CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_ENCODING => '',
-        CURLOPT_MAXREDIRS => 10,
-        CURLOPT_TIMEOUT => 0,
-        CURLOPT_FOLLOWLOCATION => true,
-        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        CURLOPT_CUSTOMREQUEST => 'GET',
-        ));
+        // curl_setopt_array($curl, array(
+        //     CURLOPT_URL => 'https://api.sam.gov/opportunities/v2/search?api_key=VuHsvoNnugurrt9kgwhf5pL5bJ53ykImUqeGZQDa&limit=1000&postedFrom=01%2F01%2F2013&postedTo=12%2F31%2F2013',
+        //     CURLOPT_RETURNTRANSFER => true,
+        //     CURLOPT_ENCODING => '',
+        //     CURLOPT_MAXREDIRS => 10,
+        //     CURLOPT_TIMEOUT => 0,
+        //     CURLOPT_FOLLOWLOCATION => true,
+        //     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        //     CURLOPT_CUSTOMREQUEST => 'GET',
+        // ));
 
-        $response = curl_exec($curl);
+        // $response = curl_exec($curl);
 
-        curl_close($curl);
-        $this->logger->info('respo'.$response);
-        $this->logger->info('after help');
-        echo $response;
+        // curl_close($curl);
+        // $this->logger->info('response' . $check);
+        // $this->logger->info('after help');
+        // echo $check;
 
         // echo $check->getBody();
-        return $response;
+        // return $check;
 
     }
 }

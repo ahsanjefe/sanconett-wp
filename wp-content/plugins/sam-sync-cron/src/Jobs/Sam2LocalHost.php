@@ -78,7 +78,7 @@ class Sam2LocalHost
     {
         $this->logger = $logger;
         $this->salesLinkClient = SalesLinkApiClient::make($logger);
-        $this->hubSpotClient = HubSpotApiClient::make($logger);
+        // $this->hubSpotClient = HubSpotApiClient::make($logger);
         $this->servername = DB_HOST;
         $this->username = DB_USER;
         $this->password = DB_PASSWORD;
@@ -95,8 +95,7 @@ class Sam2LocalHost
         try {
             $this->logRun();  
             $this->logger->info('I am here:');
-
-
+            var_dump('die');die();
             // 1. Update local contacts from cloudlinks
             $updatedContacts = $this->fetchSamOpportunities();
 
@@ -153,10 +152,12 @@ class Sam2LocalHost
             do {
                 $toUpdate = [];
                 $response = $this->salesLinkClient->getOpportunities(1000, '01/01/2013', '12/31/2013');
-                var_dump($response);die();
+                foreach($response->opportunitiesData as $data) {
+                    $this->logger->info('$noticeId' . $data['noticeId']);
+                }
+                dd('dumpppppp contr');
                 $contactsData = json_decode($response->getBody()->getContents());
                 $contacts = $contactsData->content;
-                dd('dumpppppp contr' . $contacts);
                 
                 $pagination = $contactsData->pagination;
                 $isLast = $pagination->last;
